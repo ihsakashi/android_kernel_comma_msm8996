@@ -1,0 +1,8 @@
+on boot
+    start op3t-mods
+
+service op3t-mods /op3t-mods.sh
+    user root
+    group root
+    oneshot
+    disabled
